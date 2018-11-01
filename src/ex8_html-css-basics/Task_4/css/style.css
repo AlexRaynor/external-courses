@@ -15,7 +15,6 @@ a:hover {
 
 h3:hover {
     color: burlywood;
-
 }
 
 
@@ -27,7 +26,6 @@ h2, h1 {
 
 h3 {
   color: #473519;
-
 }
 
 ul {
@@ -41,10 +39,10 @@ ul {
 
 
 .IMG {
-width: 700px;
-height: 500px;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid #000;
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
 }
 
