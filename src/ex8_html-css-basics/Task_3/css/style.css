@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
-  font-family: sans-serif; }
+  font-family: sans-serif; 
+}
 
 div{
 	width: 100px;
@@ -13,22 +14,15 @@ div{
 	border: 1px solid;
 }
 .two {
-
-
 	outline: 2px solid blue;
 }
 .three {
-
-
 	box-shadow: 0 0 0 3px orange;
 }
 
 .four {
-
-
 	border-style: solid;
 	border-color: green;
-
 	}
 .five {
 	border-top: 1px solid grey;
