@@ -1,39 +1,16 @@
-function evenOrOddNumber() {
-    var arr=[];
-    var sum = 0;
-    var sum2 = 0;
-    var nool = 0;
-    var i;
-       let items = prompt("Перечислите через запятую элементы", "");
-          if ((typeof(items)) === "string" && (typeof(items)) !== null && items !== ""){
-                    console.log('ввод верный');
-                    arr = items.split(",");
-              
-                    arr.sort();
-                } else {
-            alert ("Введите корректные данные");
-              i--;
-              }
-  
-
-    for (i = 0; i < arr.length; i++) {
-  if (arr[i]!== 0) {
-  
-        if (arr[i] % 2 === 0) {
-      ++sum;
+function getNumberType(arr){
+    var even = 0;
+    var odd = 0;
+    var nullValue = 0;
+    for(var i = 0; i<arr.length;i++){
+        if(arr[i]===0){
+            ++nullValue;
+        } else if(arr[i]%2 === 0){
+            ++even;
+        }else {
+            ++odd;
         }
-   else {
-     ++sum2; 
-      }
-  
-      } 
-      else {
-        ++nool;
-      }
     }
-  console.log("Четных элементов: " + sum);
-  console.log("Нечетных элементов: " + sum2);
-  console.log("Нулей: " + nool);
-  }
-  
-  evenOrOddNumber();
+    console.log("четных чисел: " + even + "; нечетных чисел: " + odd + "; ноль: " + nullValue)
+}
+getNumberType([1,5,3,1,4,74,7]);
