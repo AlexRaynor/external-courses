@@ -1,0 +1,16 @@
+.circle {
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/fall.jpg);
+    border-radius: 50%;
+}
+
+.mask {
+    width: 802px;
+    height: 457px;
+    -webkit-mask-position-y: -200px;
+    background-image: url(../img/fall.jpg);
+    -webkit-mask-image: url(../img/mask.svg);
+    mask-image: url(../img/mask.svg);
+}
