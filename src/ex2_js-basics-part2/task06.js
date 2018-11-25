@@ -1,25 +1,15 @@
-function simple() {
-    var item = prompt("Введите число", "");
-    var res = true;
-    var i;
-    var number;
-    if (item <= 1000) {
-     for (i = 2; i < item; i++) {
-      if (item <= 1 || item % i === 0) {
-        res=false;
-        break;
-      }
-     };
-    
-    number = (item > 1 && res)?item+ " - простое" : item + " - составное";
-    console.log(number);
-      }
-    
-    else {
-      console.log("Введенное число больше 1000");
+function simpleOrCompositeNumber(num){
+    if(num<=1000 && num>1){
+        var result = "простое число";
+        for(var i = 2; i < num; i++){
+            if (num%i ===0){
+                result = "составное число";
+                break;
+            }
+        }
+        console.log("Число " + num + " - " + result)
+    }else{
+        console.log("Данные некорректны")
     }
-    }
-    
-    
-    
- simple();
+}
+simpleOrCompositeNumber(71);
