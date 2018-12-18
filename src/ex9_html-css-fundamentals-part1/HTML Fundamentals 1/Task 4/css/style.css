@@ -1,0 +1,26 @@
+table {
+	border-collapse: collapse;
+}
+td {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000;
+}
+td span {
+	font: 40px "MS Pmincho", serif;
+	margin-left: 5px;
+	color: red;
+	opacity: 0;
+}
+input {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 0;
+	opacity: 0;
+}
+input[type="checkbox"]:checked + span {
+    opacity: 1;
+ }
+

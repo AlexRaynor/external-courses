@@ -1,0 +1,47 @@
+/* 1 */
+.box-shadow {
+  width: 200px; height: 100px;
+  background-color: #60B88D;
+  box-shadow: 5px 5px 0px 1px #90CDAF,
+              10px 10px 0px 1px #BFE3D1;
+}
+
+
+/* 2 */
+.div1, .div2, .div3 {
+  width: 200px; height: 100px;
+  position: absolute;
+  margin: 8px 300px;
+}
+.div3 {
+    background-color: #BFE3D1;
+    top: 10px; left: 10px;
+}
+.div2 {
+  background-color: #90CDAF;
+  top: 5px; left: 5px;
+}
+.div1 {
+  background-color: #60B88D;
+  top: 0px; left: 0px;
+}
+
+/* 3 */
+.pseudo {
+  width: 200px; height: 100px;
+  background-color: #BFE3D1;
+  margin: 30px 10px;
+}
+.pseudo:before, .pseudo:after {
+  width: 200px; height: 100px;
+  content: "";
+  position: absolute;
+}
+.pseudo:after {
+  background-color: #60B88D;
+  top: 128px; left: 8px;
+}
+.pseudo:before {
+  background-color: #90CDAF;
+  top: 133px; left: 13px;
+}

@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+
+table {
+	text-align: center;
+	color: #191970;
+font-family: 
+}
+
+tr {
+	height: 50px;
+}
+
+th {
+	text-transform: uppercase;
+
+}
+
+.header {
+	font-weight: 600;
+	font-size: 12px;
+	height: 22px;
+}
+
+.dark {
+	background-color: #e9eef4;
+}
+
+.light {
+	background-color: #f3f6fa;
+}
+
+.name {
+	text-transform: capitalize;
+}
+
+.deposit::before {
+content: "$ ";
+}
+
+.light:hover {
+	background-color: #e9eef4;
+}
+
+.dark:hover {
+	background-color: #f3f6fa;
+}
